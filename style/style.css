@@ -207,6 +207,9 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+  margin: 10px;
+  width:150px;
+  height:500px;
 }
 
 svg {
@@ -10814,3 +10817,17 @@ section h1 {margin-top:20px;}
 .fa-linkedin-in:hover{color:#007bb5;}
 .fa-instagram:hover{color:#c32aa3;}
 .fa-pinterest:hover{color:#bd081c;}
+
+#carouselExampleControls, #carouselExampleControls .carousel-inner, .carousel-item{height:420px;}
+#carousel1a,#carousel1b,#carousel1c {background-size:cover;}
+#carousel1a {background-image:url('../images/1.jpeg');}
+#carousel1b {background-image:url('../images/2.jpeg');}
+#carousel1c {background-image:url('../images/3.jpeg');}
+
+.carousel-container{
+   position:absolute;
+   width:100%;
+   bottom:30px;
+   left:0;
+   right:0;
+}
