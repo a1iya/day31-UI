@@ -10841,3 +10841,7 @@ ul.list-inline {display:flex;}
 .ml-auto, .mx-auto {
     margin-left: auto!important;
 }
+
+a .fa-thumbs-up:hover, a .fa-thumbs-down:hover {
+color: blue;
+}
