@@ -207,9 +207,9 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
-  margin: 10px;
+  /*margin: 10px;
   width:150px;
-  height:500px;
+  height:500px;*/
 }
 
 svg {
@@ -10830,4 +10830,14 @@ section h1 {margin-top:20px;}
    bottom:30px;
    left:0;
    right:0;
+}
+
+ul.list-inline {display:flex;}
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
 }
